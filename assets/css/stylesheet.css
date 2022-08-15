@@ -18,6 +18,14 @@ hr {
     clear:both;
 }
 
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+    text-align: center;
+    color: #202020;
+}
+
 /* header */
 
 h1 {
@@ -103,6 +111,61 @@ h1 {
     height:630px;
     display: block;
     margin: 0 auto;
+}
+
+/* where page - sign up */
+
+#where {
+    margin:50px;
+    height: 400px;
+    vertical-align: middle;
+}
+
+#where-explained {
+    float:left;
+    margin: 0 200px;
+    text-align: right;
+}
+
+#form-border {
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    padding: 30px;
+    float: right;
+    margin: 0 200px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+.form-input {
+    font-size:100%;
+    margin:20px;
+    width:350px;
+    height:20px;
+    background: transparent;
+    border: 0.1px solid;
+    border-radius: 1px;
+}
+
+#button {
+    display: block;
+    margin: 20px 150px;
+    padding: 20px;
+    font-size: 100%;
+    font-family: inherit;
+    background-color: #202020;
+    color: #FDF5E6;
+    border-radius: 25% 10%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#button:hover{
+    background-color: #FDF5E6;
+    color:#202020;
 }
 
 /* footer */
