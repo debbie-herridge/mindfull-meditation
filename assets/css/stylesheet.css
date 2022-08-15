@@ -124,7 +124,7 @@ h1 {
 
 #where {
     margin:50px;
-    height: 400px;
+    height:550px;
     vertical-align: middle;
 }
 
@@ -136,11 +136,11 @@ h1 {
 
 #form-border {
     width: 400px;
-    height: 200px;
+    height: 300px;
     text-align: left;
     padding: 30px;
     float: right;
-    margin: 0 300px 0;
+    margin: 0 500px 0 0;
 }
 
 .form-label {
@@ -150,7 +150,7 @@ h1 {
 .form-input {
     font-size:100%;
     margin:20px;
-    width:350px;
+    width:80%;
     height:20px;
     background: transparent;
     border: 0.1px solid;
@@ -168,6 +168,7 @@ h1 {
     border-radius: 25% 10%;
     text-transform: uppercase;
     font-weight: 600;
+    float:right;
 }
 
 #button:hover{
@@ -191,4 +192,39 @@ h1 {
     color:inherit;
     margin: 10%;
     font-size:200%;
+}
+
+/* media queries */
+@media screen and (max-width: 1800px) {
+#where {
+    height:800px;
+}
+#form-border {
+    clear:both;
+    margin: 0 auto;
+    float:none;
+}
+#where-explained {
+    width:100%;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 1600px) {
+    .benefits div {
+        width:30%;
+        vertical-align: middle;
+    }
+    .benefits div h3 {
+        font-size:200%;
+    }
+    .benefits div p {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #meditation-img {
+        height:400px;
+    }
 }
