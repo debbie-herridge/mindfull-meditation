@@ -262,23 +262,8 @@ h1 {
 
 @media screen and (max-width: 650px) {
     #meditation-video iframe {
-        width:280px;
-        height:157px;
-    }
-    #meditation-img {
-        height: 200px;
-    }
-    /* .benefits div h3 {
-        font-size:150%;
-    }
-    h1 {
-        font-size:300%;
-    }
-    #menu {
-        font-size: 100%;
-    } */
-    body {
-        font-size: small;
+        width:373px;
+        height:210px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -287,9 +272,5 @@ h1 {
 }
 #meditation-img {
     height: 150px;
-}
-
-body {
-    font-size: xx-small;
 }
 }
