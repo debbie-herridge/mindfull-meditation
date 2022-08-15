@@ -1,0 +1,59 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Work+Sans:wght@200&display=swap');
+
+/* body */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:  #484848;
+    width:100%;
+    text-align: center;
+    background-color: #FDF5E6;
+}
+
+hr {
+    width:100%;
+    border-bottom: 3px solid;
+    clear:both;
+}
+
+/* header */
+
+h1 {
+    color: #202020;
+    font-family: 'Work Sans', sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 20px;
+    font-size:500%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+/* navigation */
+
+#menu {
+    font-size:150%;
+    text-align:center;
+}
+
+#menu li {
+    margin: 20px;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color:inherit;
+    text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#menu a:hover{
+    border-bottom: 2px solid;
+}
+
+.active {
+    border-bottom: 2px solid;
+}
