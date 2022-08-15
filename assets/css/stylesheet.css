@@ -1,11 +1,11 @@
 /* google fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap');
 
 /* body */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:  #484848;
     width:100%;
     text-align: center;
@@ -22,7 +22,7 @@ hr {
 }
 
 h2 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 250%;
     text-align: center;
@@ -34,7 +34,7 @@ h2 {
 
 h1 {
     color: #202020;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform:uppercase;
     letter-spacing: 20px;
     font-size:500%;
@@ -93,16 +93,16 @@ h1 {
 }
 
 .benefits div {
-    width:13%;
+    width: 15%;
     height: 350px;
     border: 2px solid #BEBEBE;
-    margin: 15px;
+    margin: 15px 10px;
     display: inline-block;
     vertical-align: text-top;
 }
 
 .benefits div h3 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #202020;
     text-transform: uppercase;
     font-weight: 700;
@@ -180,6 +180,7 @@ h1 {
 #button:hover{
     background-color: #FDF5E6;
     color:#202020;
+    border-color: 202020;
 }
 
 /* footer */
@@ -244,7 +245,7 @@ h1 {
 }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     h1 {
         font-size:350%;
     }
@@ -255,7 +256,7 @@ h1 {
         font-size: 200%;
     }
     .benefits div {
-        width: 75%;
+        width: 80%;
         height:auto;
     }
 }
