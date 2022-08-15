@@ -18,6 +18,7 @@ hr {
     border-bottom: 3px solid;
     clear:both;
     margin:0;
+    font-weight: 700;
 }
 
 h2 {
@@ -26,6 +27,7 @@ h2 {
     font-size: 250%;
     text-align: center;
     color: #202020;
+    font-weight: 600;
 }
 
 /* header */
@@ -93,7 +95,7 @@ h1 {
 .benefits div {
     width:13%;
     height: 350px;
-    border: 2px solid;
+    border: 2px solid #BEBEBE;
     margin: 15px;
     display: inline-block;
     vertical-align: text-top;
@@ -101,6 +103,7 @@ h1 {
 
 .benefits div h3 {
     font-family: 'Work Sans', sans-serif;
+    color: #202020;
     text-transform: uppercase;
     font-weight: 700;
     font-size:25px;
