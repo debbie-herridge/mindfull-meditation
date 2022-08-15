@@ -88,17 +88,24 @@ h1 {
 }
 
 .benefits div {
-    width:15%;
-    height: 100px;
+    width:13%;
+    height: 350px;
     border: 2px solid;
-    margin: 5px;
+    margin: 15px;
     display: inline-block;
+    vertical-align: text-top;
 }
 
 .benefits div h3 {
     font-family: 'Work Sans', sans-serif;
-    transform: uppercase;
-    color:red;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:25px;
+    padding:5px;
+}
+
+.benefits div p {
+    padding: 15px;
 }
 
 /* how page - meditation video*/
