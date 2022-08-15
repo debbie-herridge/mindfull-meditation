@@ -183,6 +183,21 @@ h1 {
     border-color: 202020;
 }
 
+/* footer image */
+
+#footer-img {
+    margin: 50px 0 0 0;
+    height: auto;
+    overflow: hidden;
+    width:100%;
+}
+
+#footer-img img {
+    width:100%;
+    background-size: cover;
+    align:center;
+}
+
 /* footer */
 
 #social-media {
