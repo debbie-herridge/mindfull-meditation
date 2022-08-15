@@ -128,7 +128,7 @@ h1 {
 
 /* where page - sign up */
 
-#where {
+#where-section {
     margin:50px;
     height:auto;
     vertical-align: middle;
@@ -203,7 +203,7 @@ h1 {
 
 /* media queries large screens */
 @media screen and (max-width: 1800px) {
-#where {
+#where-section {
     height:650px;
 }
 #form-border {

@@ -12,9 +12,9 @@
         <h1>Be Mindfull</h1>
             <nav>
                 <ul id="menu">
-                    <li><a href="index.html" class="active">Why</a></li>
-                    <li><a href="how.html">How</a></li>
-                    <li><a href="where.html">Where</a></li>
+                    <li><a href="#why" class="active">Why</a></li>
+                    <li><a href="#how">How</a></li>
+                    <li><a href="#where">Where</a></li>
                 </ul>
             </nav>
     </header>
@@ -25,7 +25,7 @@
         <img src="assets/images/why-meditate.jpeg" alt="Close up image of lady maditating">
     </div>
 
-    <h2>what are the benefits?</h2>
+    <h2 id="why">what are the benefits?</h2>
     <section class="benefits">
         <div>
             <h3>Lowers stress and symtoms</h3>
@@ -52,6 +52,36 @@
             <h3>Improves sleep hygiene</h3>
             <p>If you struggle with sleep, then meditation can help you achieve deep sleep faster as it is known for easing the body and can calm those late night thoughts.</p>
         </div>
+    </section>
+
+    ,<section id="how">
+        <h2>How to meditate</h2>
+
+        <div id="meditation-video">
+            <iframe src="https://www.youtube.com/embed/inpok4MKVLM" title="'How to Meditate for Beginners"></iframe>
+        </div>
+    </section>
+
+    <section id="where" id="where-section">
+        <div id="where-explained">
+            <h2>Where can you meditate?</h2>
+            <p>Meditation can be done <em>anywhere!</em> Guided meditation such as the video on our how page can be replayed as many times as you need to assist you through your journey. Once you feel more comfortable in your meditation journey try put aside a few minutes of your day and start your own personal development into meditation, you'll soon learn what works best for you and become the master of your own mind and body!</p>
+            <p><em> Don't worry if you need a little support along the way, make sure you subscribe to our weekly motivations and helpful tips!</em></p>
+        </div>
+
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <div id="form-border">
+                <label class="form-label" for="fname">First Name:</label>
+                <input class="form-input" id="fname" type="text" name="first-name" required/>
+                <br>
+                <label class="form-label" for="lname">Last Name:</label>
+                <input class="form-input" id="lname" type="text" name="last-name" required/>
+                <br>
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-input" id="email" type="email" name="email" required/>
+                <button id="button" type="submit"><strong>Subscribe today!</strong></button>
+            </div>
+        </form>
     </section>
 
     <hr>
