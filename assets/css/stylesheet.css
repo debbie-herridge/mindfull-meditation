@@ -92,3 +92,21 @@ h1 {
     transform: uppercase;
     color:red;
 }
+
+/* footer */
+
+#social-media {
+    text-align: center;
+    padding: 20px;
+    vertical-align: bottom;
+}
+
+#social-media li {
+    display:inline;
+}
+
+#social-media a {
+    color:inherit;
+    margin: 10%;
+    font-size:200%;
+}
