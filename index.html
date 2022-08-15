@@ -12,7 +12,7 @@
         <h1>Be Mindfull</h1>
             <nav>
                 <ul id="menu">
-                    <li><a href="#why" class="active">Why</a></li>
+                    <li><a href="#why">Why</a></li>
                     <li><a href="#how">How</a></li>
                     <li><a href="#where">Where</a></li>
                 </ul>
@@ -24,58 +24,57 @@
     <div id="meditation-img">
         <img src="assets/images/why-meditate.jpeg" alt="Close up image of lady maditating">
     </div>
-
-    <h2 id="why">what are the benefits?</h2>
-    <section class="benefits">
-        <div>
-            <h3>Lowers stress and symtoms</h3>
-            <p>Stress is associated with the release of many inflammatory chemicals. There has been many research that shows meditation relieves the body of stress and related symtoms.</p>
-        </div>
-        <div>
-            <h3>Enhances mental health</h3>
-            <p>Regular meditation can lead to higher self-confidence and a positive outlook on life, which in turn reduces the negative thoughts that can occur during daily life.</p>
-        </div>
-        <div>
-            <h3>Lower blood pressure</h3>
-            <p>By easing stress and the strain on your heart, meditation is known for lowering blood pressure which can also reduce the risk of a heart attack and stroke.
-            </p>
-        </div>
-        <div>
-            <h3>Increases concentration</h3>
-            <p>Meditation can increase focus and the duration of the attention span, this will aid many areas of life such as work or school.</p>
-        </div>
-        <div>
-            <h3>Reduce memory loss</h3>
-            <p>Studies show meditation can prevent age-related memory loss, when tested those who meditate regulary have excellent mental clarity conpared to others in their age bracket.</p>
-        </div>
-        <div>
-            <h3>Improves sleep hygiene</h3>
-            <p>If you struggle with sleep, then meditation can help you achieve deep sleep faster as it is known for easing the body and can calm those late night thoughts.</p>
+    <section id="why" class="nav">
+        <h2>what are the benefits?</h2>
+        <div class="benefits">
+            <div>
+                <h3>Lowers stress and symtoms</h3>
+                <p>Stress is associated with the release of many inflammatory chemicals. There has been many research that shows meditation relieves the body of stress and related symtoms.</p>
+            </div>
+            <div>
+                <h3>Enhances mental health</h3>
+                <p>Regular meditation can lead to higher self-confidence and a positive outlook on life, which in turn reduces the negative thoughts that can occur during daily life.</p>
+            </div>
+            <div>
+                <h3>Lower blood pressure</h3>
+                <p>By easing stress and the strain on your heart, meditation is known for lowering blood pressure which can also reduce the risk of a heart attack and stroke.
+                </p>
+            </div>
+            <div>
+                <h3>Increases concentration</h3>
+                <p>Meditation can increase focus and the duration of the attention span, this will aid many areas of life such as work or school.</p>
+            </div>
+            <div>
+                <h3>Reduce memory loss</h3>
+                <p>Studies show meditation can prevent age-related memory loss, when tested those who meditate regulary have excellent mental clarity conpared to others in their age bracket.</p>
+            </div>
+            <div>
+                <h3>Improves sleep hygiene</h3>
+                <p>If you struggle with sleep, then meditation can help you achieve deep sleep faster as it is known for easing the body and can calm those late night thoughts.</p>
+            </div>
         </div>
     </section>
 
-    ,<section id="how">
+    <section id="how" class="nav">
         <h2>How to meditate</h2>
-
+        <p class="content">Meditation can be done anywhere! Guided meditation such as the video on our how page can be replayed as many times as you need to assist you through your journey. Once you feel more comfortable in your meditation journey try put aside a few minutes of your day and start your own personal development into meditation, you'll soon learn what works best for you and become the master of your own mind and body!</p>
         <div id="meditation-video">
             <iframe src="https://www.youtube.com/embed/inpok4MKVLM" title="'How to Meditate for Beginners"></iframe>
         </div>
+        <p><em>Video from Goodful</em></p>
     </section>
 
-    <section id="where" id="where-section">
+    <section id="where" id="where-section" class="nav">
         <div id="where-explained">
             <h2>Where can you meditate?</h2>
-            <p>Meditation can be done <em>anywhere!</em> Guided meditation such as the video on our how page can be replayed as many times as you need to assist you through your journey. Once you feel more comfortable in your meditation journey try put aside a few minutes of your day and start your own personal development into meditation, you'll soon learn what works best for you and become the master of your own mind and body!</p>
+            <p class="content">Meditation can be done <em>anywhere!</em> Guided meditation such as the video on our how page can be replayed as many times as you need to assist you through your journey. Once you feel more comfortable in your meditation journey try put aside a few minutes of your day and start your own personal development into meditation, you'll soon learn what works best for you and become the master of your own mind and body!</p>
             <p><em> Don't worry if you need a little support along the way, make sure you subscribe to our weekly motivations and helpful tips!</em></p>
         </div>
 
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <div id="form-border">
-                <label class="form-label" for="fname">First Name:</label>
-                <input class="form-input" id="fname" type="text" name="first-name" required/>
-                <br>
-                <label class="form-label" for="lname">Last Name:</label>
-                <input class="form-input" id="lname" type="text" name="last-name" required/>
+                <label class="form-label" for="name">Name:</label>
+                <input class="form-input" id="name" type="text" name="full-name" required/>
                 <br>
                 <label class="form-label" for="email">Email:</label>
                 <input class="form-input" id="email" type="email" name="email" required/>
@@ -102,6 +101,7 @@
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Go to our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
         </ul>
+        <p id="copyright"><em>copyrights reserved - Debbie Herridge 2020 <i class="fa-solid fa-copyright"></i></em></p>
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/48f458edc6.js" crossorigin="anonymous"></script>
