@@ -10,6 +10,7 @@ body {
     width:100%;
     text-align: center;
     background-color: #FDF5E6;
+    margin: 0;
 }
 
 hr {
@@ -124,7 +125,7 @@ h1 {
 
 #where {
     margin:50px;
-    height:550px;
+    height:auto;
     vertical-align: middle;
 }
 
@@ -194,10 +195,10 @@ h1 {
     font-size:200%;
 }
 
-/* media queries */
+/* media queries large screens */
 @media screen and (max-width: 1800px) {
 #where {
-    height:800px;
+    height:650px;
 }
 #form-border {
     clear:both;
@@ -223,8 +224,72 @@ h1 {
     }
 }
 
+/* media queries medium screens */
+
 @media screen and (max-width: 1400px) {
     #meditation-img {
         height:400px;
     }
+}
+
+@media screen and (max-width: 1300px) {
+    #meditation-video iframe {
+        width:560px;
+        height:315px;
+}
+}
+
+@media screen and (max-width: 900px) {
+    #meditation-img {
+        height:200px;
+    }
+    h1 {
+        font-size:350%;
+    }
+    #menu {
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 200%;
+    }
+    .benefits div {
+        width: 75%;
+        height:auto;
+    }
+}
+
+/* media queries small screens */
+
+@media screen and (max-width: 650px) {
+    #meditation-video iframe {
+        width:280px;
+        height:157px;
+    }
+    #meditation-img {
+        height: 200px;
+    }
+    /* .benefits div h3 {
+        font-size:150%;
+    }
+    h1 {
+        font-size:300%;
+    }
+    #menu {
+        font-size: 100%;
+    } */
+    body {
+        font-size: small;
+    }
+}
+@media screen and (max-width: 600px) {
+#form-border {
+    width:100%;
+}
+#meditation-img {
+    height: 150px;
+}
+
+body {
+    font-size: xx-small;
+}
 }
