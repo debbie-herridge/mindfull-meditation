@@ -117,7 +117,7 @@ h1 {
     width:1200px;
     height:630px;
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 /* where page - sign up */
@@ -130,8 +130,8 @@ h1 {
 
 #where-explained {
     float:left;
-    margin: 0 200px;
-    text-align: right;
+    width:400px;
+    margin: 0 0 0 300px;
 }
 
 #form-border {
@@ -140,7 +140,7 @@ h1 {
     text-align: left;
     padding: 30px;
     float: right;
-    margin: 0 200px;
+    margin: 0 300px 0;
 }
 
 .form-label {
