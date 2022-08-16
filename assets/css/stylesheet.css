@@ -196,15 +196,11 @@ h1 {
 
 #footer-img {
     margin: 0;
-    height: auto;
+    height: 500px;
     overflow: hidden;
     width:100%;
-}
-
-#footer-img img {
-    width:100%;
+    background: url('../images/meditate-footer.jpg') no-repeat center center;
     background-size: cover;
-
 }
 
 /* footer */
@@ -293,6 +289,9 @@ h1 {
     #image-text {
         font-size:x-large;
         text-align: left;
+    }
+    #footer-img {
+        height:400px;
     }
 }
 
