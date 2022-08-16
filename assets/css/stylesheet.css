@@ -264,6 +264,9 @@ h1 {
 #meditation-img {
     height: auto;
 }
+#image-text {
+    margin: 150px 100px;
+}
 }
 
 @media screen and (max-width: 1300px) {
@@ -287,6 +290,10 @@ h1 {
         width: 80%;
         height:auto;
     }
+    #image-text {
+        font-size:x-large;
+        text-align: left;
+    }
 }
 
 /* media queries small screens */
@@ -307,4 +314,18 @@ h1 {
 #form-border {
     width:100%;
 }
+#meditation-img {
+    height: 450px;
 }
+}
+
+@media screen and (max-width: 400px) {
+    #meditation-img {
+        height: 500px;
+    }
+    #image-text {
+        font-size:large;
+        text-align: left;
+        margin: 195px 75px;
+    }
+    }
