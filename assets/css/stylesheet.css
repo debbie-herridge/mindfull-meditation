@@ -309,13 +309,23 @@ h1 {
         letter-spacing: 5px;
     }
 }
+
 @media screen and (max-width: 600px) {
-#form-border {
-    width:100%;
-}
-#meditation-img {
+    #meditation-img {
     height: 450px;
+    }
 }
+
+@media screen and (max-width: 500px) {
+    #form-border {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .form-input {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -327,4 +337,4 @@ h1 {
         text-align: left;
         margin: 195px 75px;
     }
-    }
+}
