@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap');
 
-/* body */
+/* general rules */
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -21,21 +21,11 @@ hr {
     font-weight: 700;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 250%;
-    text-align: center;
-    color: #202020;
-    font-weight: 600;
-    margin:0;
-}
-
 .content {
     margin: 25px 50px;
 }
 
-/* header */
+/* headers */
 
 h1 {
     color: #202020;
@@ -45,7 +35,17 @@ h1 {
     font-size:500%;
     margin: 25px auto 0 auto;
     text-align: center;
-    }
+}
+
+h2 {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 250%;
+        text-align: center;
+        color: #202020;
+        font-weight: 600;
+        margin:0;
+}
 
 /* navigation */
 
@@ -76,7 +76,7 @@ h1 {
     padding-top: 15px;
 }
 
-/* index page - meditation image */
+/* why section - meditation image */
 
 #meditation-img {
     margin: 0;
@@ -94,7 +94,7 @@ h1 {
     margin: 150px 250px;
 }
 
-/* index page - benefits */
+/* why section - benefits */
 
 .benefits {
     width:100%;
@@ -124,7 +124,8 @@ h1 {
     padding: 15px;
 }
 
-/* how page - meditation video*/
+/* how section - meditation video */
+
 #meditation-video {
     width: 100%;
 }
@@ -136,13 +137,7 @@ h1 {
     margin: 25px auto;
 }
 
-/* where page - sign up */
-
-#where-section {
-    margin:50px;
-    height:auto;
-    vertical-align: middle;
-}
+/* where section - sign up */
 
 #where-explained {
     width:80%;
@@ -189,7 +184,7 @@ h1 {
 #button:hover{
     background-color: #FDF5E6;
     color:#202020;
-    border-color: 202020;
+    border-color: #202020;
 }
 
 /* footer image */
@@ -226,19 +221,17 @@ h1 {
 }
 
 /* media queries large screens */
+
 @media screen and (max-width: 1800px) {
-#where-section {
-    height:650px;
-}
-#form-border {
-    clear:both;
-    margin: 0 auto;
-    float:none;
-}
-#where-explained {
-    width:100%;
-    margin: 0 auto;
-}
+    #form-border {
+        clear:both;
+        margin: 0 auto;
+        float:none;
+    }
+    #where-explained {
+        width:100%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -257,12 +250,12 @@ h1 {
 /* media queries medium screens */
 
 @media screen and (max-width: 1400px) {
-#meditation-img {
-    height: auto;
-}
-#image-text {
-    margin: 150px 100px;
-}
+    #meditation-img {
+        height: auto;
+    }
+    #image-text {
+        margin: 150px 100px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
