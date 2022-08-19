@@ -43,5 +43,54 @@ Why page - a breif explaination and a simple form.
 ### 4.Skeleton
 
 Using Balsamiq I created the wireframe for my site:
- 
+
 ![Balsamiq all pages](/assets/images/balsamiq-all-pages.png)
+
+For a large view of each page please follow the links below:
+
+[Why page](https://github.com/debbie-herridge/mindfull-meditation/blob/main/assets/images/balsamiq-page-one.png) -
+[How page](https://github.com/debbie-herridge/mindfull-meditation/blob/main/assets/images/balsamiq-page-two.png) - 
+[Where page](https://github.com/debbie-herridge/mindfull-meditation/blob/main/assets/images/balsamiq-page-three.png)
+
+### 5.Surface
+
+Using google fonts I chose Montserrat for the body text and Raleway as they paired well, making the title capitvating and the text easy to read.
+For the colour scheme I choose grey for the text, opting for a darker grey for the headings and slightly lighter for the text. This is to enhance a subtle emphasis for the content on the ivory background.
+
+## Page Features 
+
+### Header and Nav
+The navagation consist of three links, to sections 'why', 'where' and 'how'. It is large and bold.
+![Header and Nav](/assets/images/header-nav-screenshot.png)
+
+### Main image
+The main image is fitting for the page in what it shows and also the colour schemes. It also contains a motivation quote to inspire readers. Both image and text respond in a appealing way when the screen size is changed.
+![main image](/assets/images/Main-image.png)
+![main image small](/assets/images/main-image-small%20screen.png)
+
+### Benefits section
+Each benefit is contained in its own border to separate them and give them all an equal importance. Each benefit will react and fill the page in a captivating way.
+
+![benefits large screen](/assets/images/responsive-benefits-screenshot-3.png)
+![benefits medium screen](/assets/images/responsive-benefits-screenshot-2.png)
+![benefits small screen](/assets/images/responsive-benefits-screenshot-1.png)
+
+### Video section
+Video has been imported from YouTube with the credit to the creator below. The video must be in theme, simple and concise with a calming approach. It will talk the user through their first guided meditation session. They will be as large as possible on the screen so that the user can clearly see and follow it without having to leave the site.  
+
+![Meditation video](/assets/images/video-screenshot.png)
+
+### Sign up form
+A sign up form is added at the bottom for users to input their name and email address for emailed tips and motivation. This will help further motivate the user to keep up with their journey even after leaving the website. Its simple with a large subscribe button to invite the user to join.
+
+![Sign up form](/assets/images/form-screenshot.png)
+
+### Footer
+
+#### Image
+A large image in a similar theme and colour scheme to compliment the image below the header, this gives the feel of the site a more harmonizing feel. The image is centred so that even when reducing the screen size the man is the photo will always be in the middle.
+
+#### Social Media links
+Links to social media sites - Youtube, Twitter and Facebook. Are represented by their icons which gives a clean look to the footer.
+
+![Footer image](/assets/images/footer-screenshot.png)
