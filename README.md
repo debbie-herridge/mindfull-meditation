@@ -94,3 +94,22 @@ A large image in a similar theme and colour scheme to compliment the image below
 Links to social media sites - Youtube, Twitter and Facebook. Are represented by their icons which gives a clean look to the footer.
 
 ![Footer image](/assets/images/footer-screenshot.png)
+
+### Future features
+A 'back to the top' button would aid the navagation of the page saving users to scroll up to use the nav section again.
+
+# Design changes 
+The inital skeleton design was to have three pages, after writing the code and viewing it online the site lacked enough content to have a satisfying scroll. Therefore I transferred the code from the pages into my index file. I then decided to add the image to the footer to improve the overall look and feel when scrolling down the site.
+
+# Testing
+
+## HTML Validator 
+Initially the code passes the HTML Validator with a bug as I had used to ID tags on the same div, one for the navagation and the other for the styling. I corrected this by removing the styling nav.
+
+![html validator](/assets/images/html-validator.png)
+
+## CSS Validator
+At first the code did not pass as I had not included a # before the hexidicamal colour. This was quickly resolved and so my code passed the validator.
+
+![css validator](/assets/images/css-validator.png)
+
