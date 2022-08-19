@@ -103,13 +103,21 @@ The inital skeleton design was to have three pages, after writing the code and v
 
 # Testing
 
-## HTML Validator 
+### HTML Validator 
 Initially the code passes the HTML Validator with a bug as I had used to ID tags on the same div, one for the navagation and the other for the styling. I corrected this by removing the styling nav.
 
 ![html validator](/assets/images/html-validator.png)
 
-## CSS Validator
+### CSS Validator
 At first the code did not pass as I had not included a # before the hexidicamal colour. This was quickly resolved and so my code passed the validator.
 
 ![css validator](/assets/images/css-validator.png)
 
+### Issues and their solutions
+I came across issues when ensuring the site stayed visually appealing when the screen size was changed. 
+
+The first issue was the text in the main image below the header, I did not want the lady in the photo to be covered when the size descaled. I solved this to make the text align left for sizes below 1000px.
+
+Another issue was the benefits section, initally I had a fixed height for each div section but when changing the size of the screen it didn't look smooth and appealing. I corrected this by adding padding around the text and changing the height to auto for sizes below 1000px.
+
+My biggest issue was with the form, I changed the design from the skeleton phase to float the where description left and the sign up form right. This looked sleek when it was full screen but was proving time consiming to ensure it looked just as sleek on small screens, this was due to absolute margins and padding that I struggled to override when doing the media query. It had become a time consuming issue that I struggled to resolve. To solve this I removed the float and using Google DevTools I changed the margin and padding on all id's. In hindsight it looks more consistant with the site as it is now where the text is above and the form is below, matching the section above with the how description with the video below. 
