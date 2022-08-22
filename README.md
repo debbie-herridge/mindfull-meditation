@@ -113,6 +113,14 @@ At first the code did not pass as I had not included a # before the hexidicamal 
 
 ![css validator](/assets/images/css-validator.png)
 
+### Personal testing
+
+I have tested and built this site on Mac Safari, I have viewed it on Chrome and Microsoft edge and all works perfectly.
+
+I have also tested it on an Iphone 11 Pro Max, for other mobiles I used the Google DevTools to view what it would look like. I have an issue with the Samsung Galaxy S8+ which is a bug I would fix in the future.
+
+A bug that has appeared on all screens is a slight gap on the right hand size of the screen. It is a visual error and does not effect the site but in future I will look into and solve this issue.
+
 ### Issues and their solutions
 I came across issues when ensuring the site stayed visually appealing when the screen size was changed. 
 
@@ -121,3 +129,37 @@ The first issue was the text in the main image below the header, I did not want 
 Another issue was the benefits section, initally I had a fixed height for each div section but when changing the size of the screen it didn't look smooth and appealing. I corrected this by adding padding around the text and changing the height to auto for sizes below 1000px.
 
 My biggest issue was with the form, I changed the design from the skeleton phase to float the where description left and the sign up form right. This looked sleek when it was full screen but was proving time consiming to ensure it looked just as sleek on small screens, this was due to absolute margins and padding that I struggled to override when doing the media query. It had become a time consuming issue that I struggled to resolve. To solve this I removed the float and using Google DevTools I changed the margin and padding on all id's. In hindsight it looks more consistant with the site as it is now where the text is above and the form is below, matching the section above with the how description with the video below. 
+
+# Deployment 
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+Click [here](https://github.com/debbie-herridge/mindfull-meditation) to view my GitHub repository.
+
+# Credits 
+
+## Content
+
+For the benefits of meditation I used [Cano Health](https://canohealth.com/news/blog/10-benefits-of-meditation/).
+
+The YouTube video content creator is [Goodfull](https://www.youtube.com/c/Goodful).
+
+Quote on the image from Joseph Addison.
+
+## Media
+
+Images where taken from [Unsplash](https://unsplash.com/s/photos/meditate). A big thank you to Silviu Zidaru and Jared Rice who took the photos I used on my site.
+
+Icons where taken from [Font Awesome](https://fontawesome.com/).
+
+## Code
+
+I adapted the code from the [Love Running](https://learn.codeinstitute.net/sandbox/api/challenges/601194c939e147dad663b867/files/signup.html) site by CodeInstitute.
+
+Colours were chosen by [W3School](https://www.w3schools.com/cssref/css_colors.asp).
+
+Fonts were chosen on [GoogleFonts](https://fonts.google.com/)
+
