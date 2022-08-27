@@ -65,11 +65,11 @@ For the colour scheme I will use grey for the text, opting for a darker grey for
 ## Page Features 
 
 ### Header and Nav
-The navagation consist of three links, to sections 'why', 'where' and 'how'. It is large and bold.
+The navagation consist of three links, to sections 'why', 'where' and 'how'. It is large and bold for clarity and minimilism.
 ![Header and Nav](/assets/images/header-nav-screenshot.png)
 
 ### Main image
-The main image is fitting for the page in what it shows and also the colour schemes. It also contains a motivation quote to inspire readers. Both image and text respond in a appealing way when the screen size is changed.
+The main image is fitting for the page in what it shows and also the colour schemes. It also contains a motivation quote to inspire readers. Both image and text respond in an appealing way when the screen size is changed.
 ![main image](/assets/images/main-image.png)
 ![main image small](/assets/images/main-image-small-screen.png)
 
@@ -81,7 +81,7 @@ Each benefit is contained in its own border to separate them and give them all a
 ![benefits small screen](/assets/images/responsive-benefits-screenshot-1.png)
 
 ### Video section
-The video has been imported from YouTube with the credit to the creator below. The video is in theme, simple and concise with a calming approach. It will talk the user through their first guided meditation session. It is centered as large as possible on the screen so that the user can clearly see and follow it without having to leave the site.  
+The video has been imported from YouTube with the credit to the creator below. The video is in theme, simple and concise with a calming approach. It will talk the user through their first guided meditation session. It is centered as large as possible on the screen so that the user can clearly see and see it without having to leave the site.  
 
 ![Meditation video](/assets/images/video-screenshot.png)
 
@@ -108,7 +108,7 @@ Links to social media sites - Youtube, Twitter and Facebook. Are represented by 
 
 
 # Design changes 
-The inital skeleton design was to have three pages, after writing the code and viewing it online the site lacked enough content to have a satisfying scroll. Therefore I transferred the code from the pages into my index file. I then decided to add the image to the footer to incase the content of the site between two complimenting images.
+The inital skeleton design was to have three pages, after writing the code and viewing it online the site lacked enough content to have a satisfying scroll. Therefore I transferred the code from the pages into my index file. I then decided to add the image to the footer to wrap the content of the site between two complimenting images.
 
 ### Future features
 To grow the business there will need to be a payment section on the sign up form for users to sign up to the premium subscription. Along with this there needs to be more information on the premium services provided, such as the guided meditation webinar details and information on the people teaching the course to make the users feel more connected.
@@ -165,8 +165,12 @@ Icons where taken from [Font Awesome](https://fontawesome.com/).
 
 The YouTube video content creator is [Goodfull](https://www.youtube.com/c/Goodful).
 
+Favicon created and generated using [Favicon Generator](https://favicon.io/)
+
 ## Code
 I adapted the code for the footer from the [Love Running](https://learn.codeinstitute.net/sandbox/api/challenges/601194c939e147dad663b867/files/signup.html) site by CodeInstitute.
+
+I adapted code from [Stack Overflow](https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only) for the back to the top button.
 
 Colours were chosen by [W3School](https://www.w3schools.com/cssref/css_colors.asp).
 
