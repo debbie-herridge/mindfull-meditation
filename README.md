@@ -93,8 +93,8 @@ A sign up form is at the bottom for users to input their name and email address 
 ### Back to top
 A responsive button that will bring the user back to the top of the site instead of them scrolling up. This is at the bottom of the site at it is currently not long enough to warrent a sticky button. When the site grows this will need to be implemented.
 
-[top button](/assets/images/top-button-screenshot.png)
-[top button hover](/assets/images/hover-top-button-screenshot.png)
+![top button](/assets/images/top-button-screenshot.png)
+![top button hover](/assets/images/hover-top-button-screenshot.png)
 
 ### Footer
 
