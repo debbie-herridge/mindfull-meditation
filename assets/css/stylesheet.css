@@ -77,7 +77,7 @@ h2 {
     margin: 0;
     height: 550px;
     overflow: hidden;
-    background: url('../images/why-meditate.jpg');
+    background: url('../images/why-meditate.avif');
     background-size:cover;
 }
 
@@ -186,7 +186,7 @@ h2 {
     height: 500px;
     overflow: hidden;
     width:100%;
-    background: url('../images/meditate-footer.jpg') no-repeat center center;
+    background: url('../images/meditate-footer.avif') no-repeat center center;
     background-size: cover;
 }
 
