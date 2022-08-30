@@ -143,7 +143,7 @@ At first the code did not pass as I had not included a '#' before the hexidicama
 ## Lighthouse
 
 I have tested the code using Google DevTools lighthouse to see how fast my site loads. 
-[lighthouse](/assets/images/lighthouse.png)
+![lighthouse](/assets/images/lighthouse.png)
 
 ## Personal testing
 
